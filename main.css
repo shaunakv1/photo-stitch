@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.url{
+	width: 800px;
+}
+
+.image{
+	position: relative;
+	padding-top: 50px;
+}
+
+.tile{
+	position: absolute;
+}
