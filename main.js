@@ -36,3 +36,15 @@ myApp.controller('TilesCtrl', ['$scope', function($scope) {
     });
 
 }]);
+
+/*$(function () {
+	$('#save').click(function () {
+		html2canvas($("#image")[0], {
+		  onrendered: function(canvas) {
+		  	console.log("done generating canvas..");
+		    $('#canvasImage').html(canvas);
+		  }
+		});	
+	});
+	
+});*/

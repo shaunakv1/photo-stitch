@@ -11,7 +11,9 @@ body {
 
 .image{
 	position: relative;
-	padding-top: 50px;
+	overflow: hidden;
+	margin-left:auto;
+  	margin-right:auto;
 }
 
 .tile{
