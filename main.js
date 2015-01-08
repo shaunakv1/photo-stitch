@@ -9,7 +9,7 @@ myApp.controller('TilesCtrl', ['$scope', function($scope) {
 	$scope.totalWidth = 625;
 	$scope.totalHeight = 725;
 
-	$scope.step = 47;
+	$scope.step = 32;
 	//$scope.baseUrl = "http://images2.flashphotography.com/Magnifier/MagnifyRender.ashx?O=26529390&R=10001&F=0144&A=71994&rand=0.5268328574020416"
 	//$scope.baseUrl = "http://images2.flashphotography.com/Magnifier/MagnifyRender.ashx?O=26780410&R=10008&F=0046&A=71994&rand=0.5268328574020416"
     $scope.baseUrl = "http://images2.flashphotography.com/Magnifier/MagnifyRender.ashx?O=26529390&R=10008&F=0141&A=71994&rand=0.28094600001350045"
