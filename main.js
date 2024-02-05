@@ -3,16 +3,15 @@ var myApp = angular.module('photoStitch',[]);
 
 myApp.controller('TilesCtrl', ['$scope', function($scope) {
    	
-   	$scope.tileWidth = 188;
-	$scope.tileHeight = 188;
-	
-	$scope.totalWidth = 625;
-	$scope.totalHeight = 725;
+    $scope.tileWidth = 188;
+    $scope.tileHeight = 188;
 
-	$scope.step = 32;
-	//$scope.baseUrl = "http://images2.flashphotography.com/Magnifier/MagnifyRender.ashx?O=26529390&R=10001&F=0144&A=71994&rand=0.5268328574020416"
-	//$scope.baseUrl = "http://images2.flashphotography.com/Magnifier/Magnify.aspx?O=26529390&R=10003&F=0141&A=71994"
-    $scope.baseUrl = "http://images2.flashphotography.com/Magnifier/Magnify.aspx?O=26529390&R=10006&F=0141&A=71994"
+    $scope.totalWidth = 625;
+    $scope.totalHeight = 725;
+
+    $scope.step = 32;
+
+    $scope.baseUrl = "http://magnifier.flashphotography.com/Magnify.aspx?O=26529390&R=10006&F=0141&A=71994"
     
     $scope.tiles = [];
 
@@ -26,7 +25,7 @@ myApp.controller('TilesCtrl', ['$scope', function($scope) {
     	    			'y': y,
     	    			top: y - ($scope.tileHeight / 2),
     	    			left: x - ($scope.tileWidth / 2),
-    	    			url: "http://images2.flashphotography.com/Magnifier/MagnifyRender.ashx?X="+x+"&Y="+y+"&O="+O+"&R="+R+"&F="+F+"&A="+A
+    	    			url: "http://magnifier.flashphotography.com/MagnifyRender.ashx?X="+x+"&Y="+y+"&O="+O+"&R="+R+"&F="+F+"&A="+A
     	    		});
     	    	}    	
     	    }
